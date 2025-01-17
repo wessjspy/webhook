@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebHook</title>
+    <link rel="icon" href="https://themodernham.com/wp-content/uploads/2021/06/discord-logo-png-7617.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="user-select: none;">
+    <div class="login-container">
+        <div class="ico">
+            <img src="./asset/des.svg" style="position: absolute; top: 50px; left: 50px;">
+        </div>
+        <div class="login-box">
+            <h2 style="position: relative; left: -20%;">Boas-vindas ao Painel WebHook!</h2>
+            <h4 style="position: relative; left: -20%; font-weight: 10; color:#b9bbbe; font-size: 14px;">Estamos muito animados em te ver aqui!</h4>
+            <form id="login-form">
+                <div class="input-group">
+                    <br>
+                    <label for="email" style="font-weight: 780; letter-spacing: 0.6px; font-size: 10px;">
+                        E-MAIL OU NÚMERO DE TELEFONE 
+                        <span style="color: rgb(255, 87, 87);">
+                            *
+                        </span>
+                    </label>
+                    <input style="border: none; color: rgb(194, 194, 194);" type="email" id="email" name="email" placeholder="" required>
+                </div>
+                <div class="input-group">
+                    <br>
+                    <label for="password" style="font-weight: 780; letter-spacing: 0.6px; font-size: 10px;" >
+                        SENHA  
+                        <span style="color: rgb(255, 87, 87);">
+                            *
+                        </span>
+                    </label>
+                    <input style="border: none; color: rgb(194, 194, 194);" type="password" id="password" name="password" placeholder="" required>
+                </div>
+                <div class="loss">
+                    <a href="#" style="color: rgb(82, 191, 255); font-weight: 780; letter-spacing: 0.6px; font-size: 12px;">
+                        Esqueceu sua senha?
+                    </a>
+                </div>
+                <div class="btn">
+                    <br>
+                    <button type="submit" class="login-btn" onclick="alert('Estamos trabalhando no login, use o \'\'Login express\'\' por enquanto');">
+                        Entrar
+                    </button>
+                </div>
+            </form>
+            <div class="footer">
+                <p style="color: #b9bbbe;">
+                    Precisando de uma conta? 
+                    <a href="#" style="text-decoration: none; color: rgb(82, 191, 255);">
+                        Registre-se
+                    </a>
+                </p>
+            </div>
+            <img id="icoD" style="width: 30%; position: relative; left: 71.5%; top: -103%; border-radius: 5px;" src="./asset/170656a4ee1a750a1dabb16fea84bccb.jpg">
+            <div class="direita" style="position: relative; top: 15px;">
+                <h3 style="position: relative; left: 79.5%; top: -350px;">
+                    Deu erro?
+                </h3>
+                <p style="color: #b9bbbe; position: relative; left: 73%; top: -335px;">
+                    Clique abaixo para fazer  
+                    <p style="color: #b9bbbe; position: relative; left: 75%; top: -325px;">
+                        login imediatamente. 
+                    </p>
+                        <a id="exp" href=""
+                            style="position: relative; left: 78.5%; top: -315px; color: rgb(82, 191, 255); text-decoration: none;">
+                            Login express
+                        </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
